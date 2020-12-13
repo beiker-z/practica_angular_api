@@ -1,0 +1,10 @@
+<div class="container">
+  <div class="home" *ngFor="let art of aticles">
+    <h4 (click)="sendarticle(art)">HEADER {{art.title}}</h4>
+    <p>DESCRIPTION: {{art.description}}</p>
+    <p>DATE: {{art.date | date}}</p>
+    <p>USER: {{art.user}}</p>
+  </div>
+
+
+</div>
